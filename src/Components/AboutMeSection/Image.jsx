@@ -5,7 +5,7 @@ function image(data) {
   //console.log("Image src:", imgSrc);
   return (
     <div>
-      <img className="AboutMeImage" src = {`/assets/${data.img}`}></img>
+      <img className="AboutMeImage" src = {data.img}></img>
     </div>
     );
 }
